@@ -1,0 +1,172 @@
+.wrap {
+    animation: fadeIn 0.4s ease;
+}
+
+.header {
+    margin-bottom: 2rem;
+}
+
+.header h2 {
+    margin-bottom: 0.25rem;
+}
+
+.header p {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+}
+
+.dayCard {
+    background: var(--surface-2);
+    border: 1px solid var(--border-light);
+    border-radius: 20px;
+    padding: 1.75rem;
+    margin-bottom: 1.5rem;
+    transition: all 0.3s;
+}
+
+.dayCard:hover {
+    border-color: rgba(237, 28, 36, 0.25);
+}
+
+.dayHeader {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.dayBadge {
+    background: rgba(237, 28, 36, 0.15);
+    border: 1px solid rgba(237, 28, 36, 0.3);
+    color: #F87171;
+    font-size: 0.8rem;
+    font-weight: 700;
+    padding: 0.3rem 0.75rem;
+    border-radius: 8px;
+    white-space: nowrap;
+}
+
+.dayTheme {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.dayDate {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin-top: 0.15rem;
+}
+
+.dayCost {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: auto;
+    text-align: right;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.timelineItem {
+    display: flex;
+    gap: 1rem;
+    position: relative;
+}
+
+.timelineDot {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: 2px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    flex-shrink: 0;
+    z-index: 1;
+}
+
+.timelineLine {
+    position: absolute;
+    left: 21px;
+    top: 44px;
+    width: 2px;
+    height: calc(100% - 20px);
+    background: var(--border-light);
+}
+
+.actCard {
+    flex: 1;
+    background: var(--surface-1);
+    border: 1px solid var(--border-light);
+    border-radius: 14px;
+    padding: 1rem 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.actHeader {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-bottom: 0.4rem;
+}
+
+.slotLabel {
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.actDuration {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    margin-left: auto;
+}
+
+.actCost {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--gold);
+}
+
+.actName {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0.4rem;
+}
+
+.actDesc {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    line-height: 1.5;
+}
+
+.actDist {
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    margin-top: 0.5rem;
+}
+
+.dayFooter {
+    margin-top: 0.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border-light);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.footerItem {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}

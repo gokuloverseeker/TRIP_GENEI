@@ -1,0 +1,199 @@
+.wrap {
+    animation: fadeIn 0.4s ease;
+}
+
+.tripCard {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    background: var(--surface-2);
+    border: 1px solid var(--border-light);
+    border-radius: 20px;
+    padding: 2rem;
+}
+
+.tripCardLeft {
+    flex: 1;
+    min-width: 260px;
+}
+
+.tripCardRight {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    min-width: 200px;
+}
+
+.tripMeta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 0.75rem;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+.budgetTotal {
+    margin-top: 1.25rem;
+}
+
+.budgetTotalLabel {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.budgetTotalValue {
+    font-size: 2.25rem;
+    font-weight: 900;
+    color: var(--amd-red);
+    display: block;
+}
+
+.perPerson {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    margin-top: 0.2rem;
+}
+
+.metricCard {
+    background: var(--surface-1);
+    border: 1px solid var(--border-light);
+    border-radius: 12px;
+    padding: 1rem 1.25rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.metricIcon {
+    font-size: 1.25rem;
+}
+
+.metricLabel {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+}
+
+.metricValue {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 0.1rem;
+}
+
+.budgetBars {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+}
+
+.budgetRow {}
+
+.budgetRowLabel {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.875rem;
+    margin-bottom: 0.4rem;
+}
+
+.barTrack {
+    position: relative;
+    height: 8px;
+    background: var(--surface-1);
+    border-radius: 4px;
+    overflow: visible;
+}
+
+.barFill {
+    height: 100%;
+    border-radius: 4px;
+    transition: width 0.6s ease;
+}
+
+.barPct {
+    position: absolute;
+    right: 0;
+    top: -1.2rem;
+    font-size: 0.7rem;
+    color: var(--text-muted);
+}
+
+.twoCol {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.hotelHighlight {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.hotelMeta {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    margin-top: 0.5rem;
+}
+
+.amenityChips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    margin-top: 0.5rem;
+}
+
+.amenityChip {
+    padding: 0.2rem 0.6rem;
+    background: var(--surface-1);
+    border: 1px solid var(--border-light);
+    border-radius: 100px;
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+}
+
+.tipsList {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.tipItem {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+}
+
+.tipNum {
+    min-width: 24px;
+    height: 24px;
+    background: rgba(237, 28, 36, 0.15);
+    border: 1px solid rgba(237, 28, 36, 0.3);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: #F87171;
+    flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+    .twoCol {
+        grid-template-columns: 1fr;
+    }
+
+    .tripCardRight {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
