@@ -39,6 +39,8 @@
 -Recharts
 -Python Optimization Engine
 
+wE ALSO EXLPORED THE USE OF AI CODING AGENT WHILE BUILDING THIS PROJECT . AS A CODE EDITOR WE USED ANTIGRAVITY WHICH IS SMOOTH EXPERIENCED SIMILAR TO VSCODE , ALSO WE USED THE MAIN PLAYER CLAUDE AI MODEL WHICH ESTABLISH A CLEAR RESEASONING AND STRUCTING DURING THE PROJECT BUILDING. 
+
 <img width="1904" height="909" alt="Screenshot 2026-03-01 174531" src="https://github.com/user-attachments/assets/322c4517-70c7-4333-bbd0-fafce3a4056f" />
 <img width="665" height="844" alt="image" src="https://github.com/user-attachments/assets/86f2336a-0d3f-477f-9c1e-739e047085eb" />
 <img width="1398" height="852" alt="image" src="https://github.com/user-attachments/assets/c79b1ef2-a4f6-4d09-b7f0-20f5f5b31863" />
